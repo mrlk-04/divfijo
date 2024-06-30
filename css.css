@@ -20,6 +20,8 @@ body {
 .div2{
     background-color: blue;
     height: 2000px;
+    position: relative;
+    left: 110px;
 }
 
 .tx2{
@@ -37,4 +39,25 @@ body {
 
     position: fixed;
     z-index: 1000;
+}
+
+.btn1{
+
+    width: 200px;
+    height: 100px;
+    color: rgb(238, 255, 0);
+    font-size: 30px;
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-radius: 15px;
+    border: 2px solid pink;
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasa por el botón */
+
+   background-image: url('img/1.jpg');
+   background-size: cover; /* Ajusta la imagen para que cubra todo el botón */
+   background-position: center; /* Centra la imagen */
+   transition: transform 0.2s, box-shadow 0.2s;
+
 }
